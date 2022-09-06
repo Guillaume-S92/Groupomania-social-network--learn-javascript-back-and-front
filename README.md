@@ -9,7 +9,7 @@ Ce projet intitulé Groupomania consiste à réaliser un réseau social d'entrep
         * Base de données MySQL
 
     - Frontend (client):
-	- Axios
+    -Axios
         - React
         - Sass
  
