@@ -1,0 +1,29 @@
+@import "../variable.scss";
+
+.logo {
+    height: 380px;
+    width: 380px;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+    // css pour les différents éléments du menu
+    &__element {
+        color: $Primaire;
+        border: 1px solid $Tertiaire;
+        border-radius: 25%;
+        padding: 5px;
+        text-align: center;
+        width: 29px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}

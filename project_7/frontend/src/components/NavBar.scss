@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import "../variable.scss";
+
+
+* {
+    font-family: "Lato";
+}
+
+nav {
+    text-align: center;
+}
+
+nav button {
+    margin-left: 15px;
+    padding: 5px;
+    color: $Tertiaire;
+    background-color: $Secondaire;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 8%;
+    font-size:15px;
+    cursor: pointer;
+}
+
+nav button {
+    @media (max-width: 700px) {
+        margin-left: 15px;
+        padding: 5px;
+        color: $Tertiaire;
+        background-color: $Secondaire;
+        border-radius: 10px;
+        font-weight: bold;
+        width: 40%;
+        font-size:15px;
+        cursor:pointer
+    }
+    @media  (max-width: 1000px){
+        margin-left: 15px;
+        padding: 5px;
+        color: $Tertiaire;
+        background-color: $Secondaire;
+        border-radius: 10px;
+        font-weight: bold;
+        width: 40%;
+        font-size:15px;
+        cursor:pointer
+    }
+}
