@@ -1,0 +1,116 @@
+@import "../variable.scss";
+
+.posts {
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
+
+    & h1 {
+        color: $Tertiaire;
+    }
+}
+
+.post {
+    margin-bottom: 20px;
+    color: $Tertiaire;
+    background-color: $Secondaire;
+    border-radius: 20px;
+    & h2 {
+        margin: 0px;
+    }
+}
+
+.publicationInfo {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.postElements {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: $Tertiaire;
+    padding-bottom: 1%;
+}
+
+.postElements a {
+    color: $Tertiaire;
+}
+
+.like,
+.trash {
+    width: 30px;
+}
+
+.like {
+    margin-left: 33%;
+    cursor: pointer;
+}
+
+.trash {
+    margin-right: 33%;
+    cursor: pointer;
+}
+
+.notrash {
+    margin-right: 48%;
+}
+
+form,
+h1 {
+    text-align: center;
+    color: $Tertiaire;
+}
+
+button {
+    padding: 5px;
+    color: $Tertiaire;
+    background-color: $Secondaire;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    margin-bottom: 15px;
+}
+
+img {
+    height: 290px;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon {
+    color: $Primaire;
+    width: 20px;
+    margin: 0 auto;
+}
+
+.centerIcon {
+    width: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+textarea {
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
+}
