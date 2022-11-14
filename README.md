@@ -1,4 +1,4 @@
-# Projet N°7 du parcours developpeur web d'OpenClassRoom
+# Project_7
 Ce projet intitulé Groupomania consiste à réaliser un réseau social d'entreprise
 
 ## Technologies utilisées
