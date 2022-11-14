@@ -1,4 +1,4 @@
-# Project_7
+# Création d'un reseau social d'entreprise
 Ce projet intitulé Groupomania consiste à réaliser un réseau social d'entreprise
 
 ## Technologies utilisées
